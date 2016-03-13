@@ -1,0 +1,38 @@
+{
+  "name": "specmap-examples",
+  "version": "0.1.0",
+  "description": "Some example for specmap",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./examples/**/*.js ",
+    "test:watch": "npm test -- --watch",
+    "start": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ponelat/specmap.git"
+  },
+  "keywords": [
+    "spec",
+    "swagger",
+    "resolver",
+    "json-refs",
+    "examples"
+  ],
+  "author": "Josh Ponelat",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ponelat/specmap/issues"
+  },
+  "homepage": "https://github.com/ponelat/specmap#readme",
+  "dependencies": {
+    "specmap": "^0.1.0"
+  },
+  "devDependencies": {
+    "clone": "^1.0.2",
+    "expect": "1.14.x",
+    "mocha": "^2.4.5",
+    "traverse": "^0.6.6",
+    "xmock": "^0.2.0"
+  }
+}
